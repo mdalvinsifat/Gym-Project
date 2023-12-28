@@ -1,38 +1,171 @@
-.App {
+.color-fotter:hover{
+  color: rgb(255, 166, 0);
+}
+
+
+.fotter-background-color{
+background-color: rgba(14, 14, 230, 0.342);
+padding: 20px;
+}
+
+.orange{
+  color: rgb(255, 166, 0);
+}
+
+
+.img{
+  height: 95vh;
+  object-fit: cover;
+}
+
+/* second  */
+
+.font-change{
+font-family:Arial, Helvetica, sans-serif;
+color:rgb(255, 147, 107);
+}
+
+.body{
+  background-color: rgb(226, 67, 9);
+}
+
+.icon{
+  color: orange;
+  font-size: 70px;
+}
+
+
+
+/* Four  */
+
+.background-image-production{
+  background-image: url("https://gym-website-25129.web.app/static/media/pricing.c9e0b54b.jpg");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 50px;
+}
+
+
+.bg-orange{
+background-color: orange;
+padding:90px 20px;
+}
+
+
+
+/* five  */
+.bg-image-from{
+  background-image: url("https://gym-website-25129.web.app/static/media/bmi-bg.48966b62.png");
+  width: 100%;
+  height: 80vh;
+background-position: center;
+background-size: cover;
+}
+
+table{
+  width: 100%;
+}
+table tr td{
+  border: 1px solid white;
+  padding: 10px;
   text-align: center;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+th{
+border: 1px solid white;
+padding: 10px;
+text-align: center;
+width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+
+
+
+/* About bar   start */
+.bg-image-about{
+background-image: url("https://gym-website-25129.web.app/static/media/about-hero.a0880aaa.webp");
+height: 80vh;
+width: 100%;
+background-position: center;
+background-size: cover;
+justify-content: center;
+align-items: center;
+display: flex;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+
+.about-color{
+  background-color: orangered;
+  width: 100%;
+  height: 100%;
+
+}
+/* About bar   end*/
+
+
+
+
+
+
+
+/* shop start  */
+
+.shop-bg{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+/* shop end */
+
+
+
+/* trainer start  */
+.bg-trainer{
+background-image: url("https://gym-website-25129.web.app/static/media/banner-trainers.3172e937.jpg");
+width: 100%;
+height: 80vh;
+justify-content: center;
+align-items: center;
+display: flex;
+background-repeat: no-repeat;
+}
+/* trainer end */
+
+
+
+/* contact page  start */
+
+.bg-contact-image{
+  background-image: url("https://gym-website-25129.web.app/static/media/contact.213c0b89.webp");
+  width: 100%;
+  height: 80vh;
+  background-repeat: no-repeat;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+background-attachment: fixed;
+}
+/* contact page end  */
+
+
+
+
+/* Contact  page start  */
+.formsa{
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* contact page end */
