@@ -9,7 +9,7 @@ import Reg from './Reg/Reg';
 import Trainer from './Trainer/Trainer';
 import LogOut from './LogOut/LogOut';
 import NotFound from './Error/NotFound';
-import ReguireAuth from './ReguireAuth/ReguireAuth';
+
 
 function App() {
   return (
@@ -18,9 +18,9 @@ function App() {
       <Route path='/' element={<Home/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path='/contact' element={
-        <ReguireAuth>
+     
           <Contact/>
-        </ReguireAuth>
+    
       }/>
       <Route path='/shop' element={<Shop/>}/>
       <Route path='/reg' element={<Reg/>}/>
